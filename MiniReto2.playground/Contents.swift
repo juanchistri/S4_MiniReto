@@ -21,7 +21,7 @@ class Auto{
         
         let now = self.velocidad.rawValue
         let actual = velocidad.rawValue
-        let velocidadEnCadena = String(velocidad)
+        let velocidadEnCadena = String(velocidad) // Entiendo que no se puede declarar un constante a un valor de retorno ya establecido en la func.
         
         switch now{
         case 20:
